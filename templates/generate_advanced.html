@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="static/css/generate_advanced.css">
+{% endblock %}
+
+{% block body %}
+<main class="generate-advanced-page">
+    <section class="image-actions">
+        <input type="number" name="numberInput" id="numberInput" min="0" max="999999" placeholder="Enter a number">
+        <button id="generateButton">Generate</button>
+        <button id="generateMixed">Generate Mixed</button>
+    </section>
+
+    <section class="result-info">
+        <section class="result">
+            <span id="resultText"></span>
+        </section>
+        <section class="image-container">
+
+        </section>
+    </section>
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="static/js/generate_advanced.js"></script>
+{% endblock %}

@@ -1,0 +1,4 @@
+tensorflow==2.17.0
+Flask==3.0.3
+pillow==10.4.0
+matplotlib==3.9.2

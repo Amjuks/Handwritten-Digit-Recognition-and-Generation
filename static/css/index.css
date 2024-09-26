@@ -1,0 +1,69 @@
+:root {
+    --canvas-size: 300px;
+}
+
+.identify-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem 2rem;
+
+    padding: 1rem 1rem;
+}
+
+.canvas-draw {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.draw-text {
+    text-align: center;
+    font-weight: 300;
+}
+
+#identifyCanvas {
+    height: var(--canvas-size);
+    width: var(--canvas-size);
+
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.canvas-actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.canvas-actions button {
+    padding: .3rem 3rem;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    color: white;
+    background-color: black;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+
+    font-weight: 300;
+    font-size: 15rem;
+    line-height: 15rem;
+}

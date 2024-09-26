@@ -1,0 +1,42 @@
+.generate-normal-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    padding: 1rem 1rem;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    
+    min-width: 40%;
+}
+
+.image-container img {
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px rgb(0 0 0 / 52%)
+}
+
+.image-actions { 
+    display: flex;
+    flex-direction: row;
+}
+
+.image-actions button {
+    padding: .3rem 3rem;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+    color: white;
+    background-color: black;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+}

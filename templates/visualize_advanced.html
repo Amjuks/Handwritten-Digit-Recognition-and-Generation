@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block styles %}
+<link rel="stylesheet" href="static/css/visualize_advanced.css">
+{% endblock %}
+
+{% block body %}
+<main class="visualize-advanced-page">
+    <section class="image-actions">
+        <input type="number" name="numberInput" id="numberInput" min="0" max="9" placeholder="Enter a number">
+        <button id="generateButton">Generate</button>
+    </section>
+
+    <section class="loading">
+        <div class="text-center">
+            <div class="spinner-border text-primary" role="status">
+            </div>
+          </div>
+    </section>
+
+    <section class="result-info">
+        <section class="result">
+            <span id="resultText"></span>
+        </section>
+        <section class="image-container">
+
+        </section>
+    </section>
+</main>
+{% endblock %}
+
+{% block scripts %}
+<script type="module" src="static/js/visualize_advanced.js"></script>
+{% endblock %}
